@@ -162,6 +162,10 @@ color: #FFFFFF;
 }
 
 /* Наши преимущества */
+.meta {
+padding: 94px 0;
+}
+
 .our-plus {
 display: none;
 }
@@ -176,10 +180,6 @@ margin-right: 30px;
 
 .advantage-flex {
 display: flex;
-}
-
-.advantage-box {
-padding: 94px 0;
 }
 
 .advatage-text {
@@ -208,6 +208,10 @@ color: #757575;
 }
 
 /* Наши занятия */
+.benefits {
+padding-bottom: 94px;
+}
+
 .our-work{
 margin-bottom: 50px;
 
@@ -222,7 +226,7 @@ color: #212121;
 
 .our-work-flex {
 display: flex;
-padding-bottom: 94px;
+
 }
 
 .img-item:not(:last-child) {
@@ -252,7 +256,7 @@ display: flex;
 }
 
 .img-text {
-margin-top: 30px;
+padding: 30px 0;
 }
 
 .team{
@@ -301,6 +305,10 @@ text-decoration:none;
 
 
 /* ПОРТФОЛИО */
+.portfolio-menu {
+padding: 94px 0;
+}
+
 .our-work-port {
 display: none;
 }
@@ -318,7 +326,6 @@ margin-right: 8px;
 
 .our-service-btn {
 min-width: 73px;
-
 
 border-radius: 4px;
 }
@@ -361,14 +368,11 @@ margin-right: 0;
 }
 
 .img-portfolio:nth-last-child(-n+3){
-margin-bottom: 0;
 margin-bottom: 90px;
 }
 
 .portfolio-item {
 height: 404px;
-
-
 }
 
 .portfolio-text {
